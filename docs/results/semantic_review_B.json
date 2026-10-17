@@ -1,0 +1,88 @@
+{
+  "reviewer": "B",
+  "scope": "Evaluación ciega de los productos integrales P01–P08 con missions.json, RUBRICA.md, tasks_private.json, oracle_raw_appendix.json y los packet/evidence de cada paquete.",
+  "scale": "Cada criterio puntúa 0–2; total máximo 16. Los bloqueadores se informan aparte.",
+  "packages": [
+    {
+      "packet": "P01",
+      "mission": "MI-02",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 1, "tiempo_topologia_limites": 2, "costes_tradeoffs": 1, "revision_adversarial_fixture": 2},
+      "total": 14,
+      "blockers": [],
+      "inferred_families_roles": ["historia de computación matemática: estatus y conjeturas sobre RH", "Morse discreta: resultado condicionado", "ecuaciones diferenciales: condiciones de existencia y dominio", "teoría clásica de campos: derivación bajo condiciones"],
+      "evidence_refs": ["u:36d9af3d35d1a15fad38d38942e7539b, p.4, chars 95–351", "u:d67ab31c7396f3cfbd463e22240a06dd, p.62, chars 250–550", "u:6f9cf8c942a818f70221e7df4a7c966e, p.93, chars 0–686", "u:43f3100b88ec3298fa29310dbbbd2396, TQC p.65, chars 0–743"],
+      "rationale": "Separa con claridad ruta, afirmación y aristas probatorias; limita las analogías y trata la fuente sobre RH como afirmación, no demostración. La fixture cubre rutas duplicadas, premisa ausente, fuente débil, revisiones y permutación. La implementación adjunta no materializa varios controles prometidos: ignora la estructura de la ruta/premisas y limita spent a min(1,budget), por lo que la ejecución no reproduce el coste y la verificación descritos; la política de costes queda además como medición propuesta, sin presupuesto/regla de asignación."
+    },
+    {
+      "packet": "P02",
+      "mission": "MI-01",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 1},
+      "total": 15,
+      "blockers": [],
+      "inferred_families_roles": ["01220/historia matemática: estatus de RH", "TQC: analogía de chequeo de subdiagramas", "Morse discreta: analogía de aciclicidad", "ecuaciones/probabilidad: analogía de compatibilidad"],
+      "evidence_refs": ["u:36d9af3d35d1a15fad38d38942e7539b, p.4, 78–184", "u:70af3b5e366b77c555b163bfcaa848ae, TQC p.125, 260–610", "u:b916ff916bd67e1e6e575cf30b75626c, Morse p.88, 287–519", "u:1582d719a1ce6acffab42fe5e21c5115, ecuaciones p.35, 492–790"],
+      "rationale": "El esquema de registro, estados, cola cuantificada, revisión versionada y regla de parada son aplicables; los cuatro puentes se rotulan como analogías y se explican sus límites. La fixture presenta casos aislados de universal sin prueba, revisión, calidad y coste, pero no los integra en la secuencia adversarial exigida (intervalo finito, cambio de distribución y puente corto no probado) ni muestra el cambio de postura paso a paso."
+    },
+    {
+      "packet": "P03",
+      "mission": "MI-02",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 1, "revision_adversarial_fixture": 2},
+      "total": 15,
+      "blockers": [],
+      "inferred_families_roles": ["riemann: afirmación categórica adversarial", "01220: evidencia numérica finita y estado reportado", "ecuaciones/probabilidad: analogía de requisitos de compatibilidad", "Smulski: metadatos y cambio temporal"],
+      "evidence_refs": ["u:1d3efce015a20e5d02eb3b60da349307, riemann p.11, span 0–500", "u:d8bdd066cf838c1c0806ef81083afebb, 01220 p.45 impresa, span 601–1100", "u:36d9af3d35d1a15fad38d38942e7539b, 01220 p.4, span 0–300", "u:fc2345b3ebc62b36740ff0c239aaccb1, ecuaciones p.19, span 0–500", "u:3433303727fc488103c3c813f15af73a, Smulski p.1, span 0–450"],
+      "rationale": "Distingue navegación de prueba, conserva versiones y alcance, y usa de modo prudente la tensión entre la afirmación de riemann, el reporte finito y la caracterización histórica de problema abierto. La fixture incluye fuente incierta, revisión nueva, ruta incompleta y permutación, con resultados esperados. Los costes se proponen como expansiones/aristas, pero no se fija presupuesto ni umbral de latencia."
+    },
+    {
+      "packet": "P04",
+      "mission": "MI-01",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 2},
+      "total": 16,
+      "blockers": [],
+      "inferred_families_roles": ["historia matemática: observación finita y anomalía", "física/QFT: analogía de dependencias", "biología marina: analogía de carga de actualización", "ecuaciones diferenciales: condiciones de aplicabilidad"],
+      "evidence_refs": ["u:842b853e366b77c555b163bfcaa848ae, 01220 p.56, spans 400–900", "u:ecb5f211b24bddb4972c15fd2e396ffa, biología marina p.17, spans 383–1392", "u:d8bdd066cf838c1c0806ef81083afebb, 01220 p.48, spans 0–1007", "u:70af3b5e366b77c555b163bfcaa848ae, tqc p.125, spans 0–907", "u:6f9cf8c942a818f70221e7df4a7c966e, ecuaciones p.81, spans 0–686", "u:1d3efce015a20e5d02eb3b60da349307, riemann p.11, spans 0–941"],
+      "rationale": "Propone estados, cola bajo presupuesto, prioridades reproducibles, reversión, fuentes rivales y límites de transferencia. Identifica el fallo de v2: utilidad/prioridad no controla validez ni alcance; el fixture integra intervalo finito, deriva temporal simulada, puente corto sin apoyo, presupuesto y revisión. El caso de entrada se describe como secuencia reproducible aunque sus fuentes simuladas no se desglosan en campos estructurados."
+    },
+    {
+      "packet": "P05",
+      "mission": "MI-01",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 2},
+      "total": 16,
+      "blockers": [],
+      "inferred_families_roles": ["riemann: afirmación categórica que se audita", "01220: observación finita y cautela numérica", "ecuaciones/probabilidad: compatibilidad de premisas", "geometría: dominio y composición", "simplectica: condiciones de un teorema"],
+      "evidence_refs": ["u:1d3efce015a20e5d02eb3b60da349307, riemann p.11, chars 0–600", "u:842b853e57d0ce0626e66cc8836b6b06, 01220 p.56, chars 0–948", "u:1582d719a1ce6acffab42fe5e21c5115, ecuaciones p.23, chars 0–750", "u:c85b7c6dd7427890a3c6c51ec7e7b4b0, geometria p.29, chars 227–1145", "u:c2dfbd16e8d1966ccf77edf9e5f4b533, simplectica p.29, chars 0–800"],
+      "rationale": "Conserva eventos y rivales, separa confianza práctica de verdad universal y describe la corrección adversarial explícita: la prioridad no puede elevar estatus probatorio. Ofrece familias con funciones diferenciadas y cita límites inferenciales. Su fixture especifica dos entradas fechadas, revisión/cambio de calidad, un puente quitado, presupuesto insuficiente, resultado esperado y control positivo; por ello es ejecutable y no meramente narrativo."
+    },
+    {
+      "packet": "P06",
+      "mission": "MI-02",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 2},
+      "total": 16,
+      "blockers": [],
+      "inferred_families_roles": ["01220: observación finita y reserva numérica", "riemann: afirmación categórica adversarial", "álgebra lineal: analogía de invariancia bajo permutación", "QFT: analogía de dependencias anidadas", "Morse discreta: analogía visual de rutas", "arquitectura Bridge Hunter: propuesta operativa candidata"],
+      "evidence_refs": ["u:842b853e57d0ce0626e66cc8836b6b06, 01220 p.56, span 0–2637", "u:75d9ed270b65d9084f024be61481e5cc, arquitectura Bridge Hunter, span 3637–4709", "u:dd8f4414102bc2b518f04c0f9c563a56, t27 p.160, span 0–1749", "u:70af3b5e366b77c555b163bfcaa848ae, tqc p.119, span 0–2875", "u:f3b34832dfa3454ada174527f95509af, Morse p.6, span 0–2863", "u:1d3efce015a20e5d02eb3b60da349307, riemann p.11, span 0–1881"],
+      "rationale": "Diseño tipado y versionado, invariancia explícita, historial, calidad local a la fuente y alternativa de menor coste. La tensión entre el texto categórico y los reportes finitos se trata como afirmaciones atribuibles, no como resolución externa; las analogías están delimitadas. La fixture cubre prueba ausente, premisa perdida, fuente baja, desalineación, presupuesto y control positivo; el gasto por ruta es reproducible."
+    },
+    {
+      "packet": "P07",
+      "mission": "MI-01",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 1, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 2},
+      "total": 15,
+      "blockers": ["La definición inicial de `supported` dice que bastan prueba explícita O premisas completas; eso contradice la regla posterior de exigir prueba y todas las premisas. Aplicada literalmente, podría aprobar un universal con observaciones finitas y premisas completas, el fallo que el protocolo debe impedir."],
+      "inferred_families_roles": ["01220: observación finita y anomalía numérica", "Morse discreta: analogía para ciclos y recorridos", "TQC: analogía para subafirmaciones", "ecuaciones/probabilidad: analogía de compatibilidad"],
+      "evidence_refs": ["u:842b853e57d0ce0626e66cc8836b6b06, 01220 p.56, spans 421–917 y 1308–2159", "u:b916ff916bd67e1e6e575cf30b75626c, Morse, span 0–701", "u:70af3b5e366b77c555b163bfcaa848ae, TQC, span 0–907", "u:fc2345b3ebc62b36740ff0c239aaccb1, ecuaciones, span 0–933", "u:1582d719a1ce6acffab42fe5e21c5115, ecuaciones, span 0–859"],
+      "rationale": "Muy buen historial de v1/v2/v3, retención y reserva de presupuesto adversarial, con contraejemplo, rivales y fixture detallados. Las analogías y citas se limitan; el cambio simulado no se atribuye a fuentes. Sin embargo, la condición disyuntiva en la definición de estado apoyado deja una ambigüedad material en la garantía central, aunque el resto del texto expresa la regla correcta."
+    },
+    {
+      "packet": "P08",
+      "mission": "MI-02",
+      "scores": {"soporte_literal_trazabilidad": 2, "diversidad_funcion_familias": 2, "limites_inferenciales_fuente": 2, "hipotesis_rivales": 2, "procedimiento_operativo": 2, "tiempo_topologia_limites": 2, "costes_tradeoffs": 2, "revision_adversarial_fixture": 2},
+      "total": 16,
+      "blockers": [],
+      "inferred_families_roles": ["01220: cómputo finito y límite expreso", "riemann: afirmación categórica adversarial", "discurso/ensayo matemático: estado reportado en contexto", "álgebra lineal: analogía de prueba por pasos", "ecuaciones diferenciales: analogía de requisitos"],
+      "evidence_refs": ["u:d9626687622d9e0b0fddf7c2e7f44b4a, 01220 p.41 impresa, span 1460–1770", "u:1d3efce015a20e5d02eb3b60da349307, riemann p.11, span 150–550", "u:36d9af3d35d1a15fad38d38942e7539b, 01220 p.7 impresa, span 100–350", "u:d85f99366f623773f844fc28fccd89ef, t27 p.225, span 167–620", "u:6f9cf8c942a818f70221e7df4a7c966e, ecuaciones p.81, span 0–1322"],
+      "rationale": "Separa ruta de soporte, conserva versiones y hace que degradación de calidad o pérdida de premisa genere cautela. La discusión de RH se presenta como auditoría del corpus, sin atribuir al texto antiguo una verdad actual; los roles documentales y analogías quedan delimitados. La fixture concreta rutas alternativas, enlace ausente, revisiones, calidad, coste y salidas esperadas, con permutación como prueba de invariancia."
+    }
+  ],
+  "classification_note": "La familia se infiere solo cuando los propios paquetes y los localizadores permiten sostenerla. Fuente/título, frase citada y rol argumental se usan para clasificar; similitud temática no se toma como identidad de familia. Los puntajes valoran el producto de las tres rondas y no la coincidencia con el oráculo."
+}

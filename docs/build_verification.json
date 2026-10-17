@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "resonance-graph": "0.1.0",
+    "numpy": "2.5.4",
+    "networkx": "3.7"
+  },
+  "tests_run": 48,
+  "tests_passed": true,
+  "demo_identical_twice": true,
+  "demo": {
+    "edges": 4,
+    "feedback_updates": 1,
+    "hits": [
+      {
+        "id": "revision",
+        "text": "Conservar versiones permite reconstruir qué evidencia se usó."
+      },
+      {
+        "id": "alcance",
+        "text": "Una conclusión depende del alcance de sus premisas."
+      }
+    ],
+    "mode": "anchored",
+    "nodes": 4,
+    "roundtrip_graph": true
+  },
+  "core_provenance_verified": true,
+  "scope": "Installed library, portable core tests and synthetic demo; no historical research rerun."
+}

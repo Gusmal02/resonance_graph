@@ -1,0 +1,237 @@
+{
+  "review_process": "Two fresh economical independent reviewers; root resolves factual disagreements against unchanged proposals, raw evidence and actual executable results. Root knows methods; only reviewer assessments were method-blind. Researcher diagnostics were visible, so researcher blinding was not perfect.",
+  "criteria_order": [
+    "traceability",
+    "family_roles",
+    "inferential_limits",
+    "rivals",
+    "procedure",
+    "time_topology",
+    "costs",
+    "adversarial_fixture"
+  ],
+  "packages": [
+    {
+      "packet": "P01",
+      "session": "MI-02_3",
+      "mode": "q_frozen",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "total": 14,
+      "blockers": [],
+      "adjudication": "Se conserva B: arquitectura más extensa que el prototipo de triage y coste sin política de asignación. Las citas literales de las notas permiten reconstruir los puentes, aunque la propuesta los parafrasee.",
+      "review_A_total": 14,
+      "review_B_total": 14,
+      "fixture_passed": 9,
+      "fixture_total": 9,
+      "mission_success": true,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P02",
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "total": 14,
+      "blockers": [],
+      "adjudication": "A no identifica una contradicción real: unsupported por premisa ausente es explícito y permitido. B acierta al señalar fixture poco integrado. Se reduce costes: el código registra gasto superior al presupuesto cero; no es un fallo de verdad universal.",
+      "review_A_total": 16,
+      "review_B_total": 15,
+      "fixture_passed": 8,
+      "fixture_total": 9,
+      "mission_success": false,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P03",
+      "session": "MI-02_1",
+      "mode": "static",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 15,
+      "blockers": [],
+      "adjudication": "El bloqueador A es hipotético, no localizado: narrativa y código rechazan premisas ausentes. Costes siguen parciales y el prototipo falla presupuesto cero. La cita riemann mal copiada en evidence_refs del revisor A no está así en la entrega.",
+      "review_A_total": 14,
+      "review_B_total": 15,
+      "fixture_passed": 8,
+      "fixture_total": 9,
+      "mission_success": false,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P04",
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "scores": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "total": 14,
+      "blockers": [],
+      "adjudication": "Un ID de 01220 en v1 está mal transcrito; la referencia correcta y literal existe en nota/claims finales, por lo que no se pierde el puente central pero la trazabilidad de la prosa no merece 2. Fixture narrativo y código disponibles, sin ejecución local ni secuencia estructurada completa; se conserva la cautela A en criterio8.",
+      "review_A_total": 15,
+      "review_B_total": 16,
+      "fixture_passed": 9,
+      "fixture_total": 9,
+      "mission_success": true,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P05",
+      "session": "MI-01_1",
+      "mode": "static",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 16,
+      "blockers": [],
+      "adjudication": "Concordancia de revisores y ejecución. Las páginas23/35 y56/53 corresponden a paginación impresa/PDF, respectivamente, y no son citas inventadas.",
+      "review_A_total": 16,
+      "review_B_total": 16,
+      "fixture_passed": 9,
+      "fixture_total": 9,
+      "mission_success": true,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P06",
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 15,
+      "blockers": [],
+      "adjudication": "El supuesto supported con premisa ausente de A no está en la tabla ni en las ejecuciones: se rechaza ese bloqueador. El defecto real es gasto mayor al presupuesto, explícito incluso en su fixture local; costes baja a1.",
+      "review_A_total": 15,
+      "review_B_total": 16,
+      "fixture_passed": 8,
+      "fixture_total": 9,
+      "mission_success": false,
+      "strict_documentary_blocker_sensitivity": false
+    },
+    {
+      "packet": "P07",
+      "session": "MI-01_3",
+      "mode": "q_frozen",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 15,
+      "blockers": [],
+      "adjudication": "B identifica una ambigüedad real: prueba explícita O premisas completas en definición inicial. Se conserva penalización en límites. No se trata como conversión efectiva de observación finita en prueba: la frase siguiente la prohíbe, el algoritmo exige ambas condiciones y todos los casos ejecutados pasan. Se informa también el resultado alternativo con bloqueo estricto, sin corregir la entrega.",
+      "review_A_total": 16,
+      "review_B_total": 15,
+      "fixture_passed": 9,
+      "fixture_total": 9,
+      "mission_success": true,
+      "strict_documentary_blocker_sensitivity": true
+    },
+    {
+      "packet": "P08",
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 15,
+      "blockers": [],
+      "adjudication": "La falta de inspección invocada por A no es un bloqueador factual. La inspección y ejecuciones verifican puertas de prueba, premisas y calidad. El defecto reproducido es gasto superior al presupuesto; costes baja a1.",
+      "review_A_total": 15,
+      "review_B_total": 16,
+      "fixture_passed": 8,
+      "fixture_total": 9,
+      "mission_success": false,
+      "strict_documentary_blocker_sensitivity": false
+    }
+  ],
+  "modes": {
+    "static": {
+      "missions_completed": 2,
+      "missions_successful": 1,
+      "strict_sensitivity_successful": 1,
+      "fixture_passed": 17,
+      "fixture_total": 18
+    },
+    "q_active": {
+      "missions_completed": 2,
+      "missions_successful": 0,
+      "strict_sensitivity_successful": 0,
+      "fixture_passed": 16,
+      "fixture_total": 18
+    },
+    "q_frozen": {
+      "missions_completed": 2,
+      "missions_successful": 2,
+      "strict_sensitivity_successful": 1,
+      "fixture_passed": 18,
+      "fixture_total": 18
+    },
+    "anchored": {
+      "missions_completed": 2,
+      "missions_successful": 1,
+      "strict_sensitivity_successful": 1,
+      "fixture_passed": 17,
+      "fixture_total": 18
+    }
+  }
+}

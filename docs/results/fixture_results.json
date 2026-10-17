@@ -1,0 +1,2126 @@
+[
+  {
+    "session": "MI-01_1",
+    "passed_cases": 9,
+    "total_cases": 9,
+    "all_pass": true,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Finite or non-proof evidence cannot establish a universal claim.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "provisional",
+              "reason": "Finite or non-proof evidence cannot establish a universal claim.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "At least one premise is missing, so the inference cannot be approved.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "At least one premise is missing, so the inference cannot be approved.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source and evidence revisions do not align; recheck the changed source.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "Source and evidence revisions do not align; recheck the changed source.",
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source quality is too uncertain for a supported conclusion.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "Source quality is too uncertain for a supported conclusion.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Insufficient budget for the estimated review; retain the current claim as unverified.",
+          "spent": 0.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "Insufficient budget for the estimated review; retain the current claim as unverified.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+          "spent": 2.5,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+          "spent": 2.5,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "Explicit proof, complete premises, adequate source quality, aligned revisions, and sufficient budget.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 2.5
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-01_2",
+    "passed_cases": 8,
+    "total_cases": 9,
+    "all_pass": false,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Una observación finita no demuestra una afirmación universal.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Una observación finita no demuestra una afirmación universal.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "unsupported",
+          "reason": "Una o más premisas necesarias están ausentes.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "unsupported",
+              "reason": "Una o más premisas necesarias están ausentes.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Una observación finita no demuestra una afirmación universal.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Una observación finita no demuestra una afirmación universal.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": false,
+        "status_ok": true,
+        "cost_ok": false,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Una observación finita no demuestra una afirmación universal.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Una observación finita no demuestra una afirmación universal.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+          "spent": 2.75,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+              "spent": 2.75
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+          "spent": 2.75,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Premisas, prueba, calidad, revisión y presupuesto cumplen la regla.",
+              "spent": 2.75
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-01_3",
+    "passed_cases": 9,
+    "total_cases": 9,
+    "all_pass": true,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Una observación finita no prueba una afirmación universal.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Una observación finita no prueba una afirmación universal.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Falta al menos una premisa o puente de la ruta.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Falta al menos una premisa o puente de la ruta.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "La revisión de la fuente no coincide con la revisión de la evidencia.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "La revisión de la fuente no coincide con la revisión de la evidencia.",
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "La calidad de la fuente es incierta; requiere corroboración.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "La calidad de la fuente es incierta; requiere corroboración.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.1,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Presupuesto insuficiente para revalidar la afirmación.",
+          "spent": 0.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Presupuesto insuficiente para revalidar la afirmación.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+          "spent": 1.0,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y revisiones alineadas.",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "source_quality": 0.95,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 1.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-01_4",
+    "passed_cases": 9,
+    "total_cases": 9,
+    "all_pass": true,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Una observación finita no demuestra una afirmación universal.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Una observación finita no demuestra una afirmación universal.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Faltan premisas; no se completa el puente inferencial.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Faltan premisas; no se completa el puente inferencial.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+              "spent": 1,
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Calidad de fuente incierta; requiere corroboración independiente.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Calidad de fuente incierta; requiere corroboración independiente.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Presupuesto insuficiente para verificar; evidencia sin revisión actual.",
+          "spent": 0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Presupuesto insuficiente para verificar; evidencia sin revisión actual.",
+              "spent": 0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+          "spent": 1,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+          "spent": 1,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba y premisas completas con fuente de calidad y revisiones alineadas.",
+              "spent": 1,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-02_1",
+    "passed_cases": 8,
+    "total_cases": 9,
+    "all_pass": false,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Observaciones finitas o rutas de navegación no prueban una afirmación universal.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Observaciones finitas o rutas de navegación no prueban una afirmación universal.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Falta al menos una premisa requerida; la ruta disponible no la sustituye.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Falta al menos una premisa requerida; la ruta disponible no la sustituye.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Las revisiones de fuente y evidencia no están alineadas.",
+              "spent": 1.0,
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "La fuente tiene calidad incierta; hace falta corroboración independiente.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "La fuente tiene calidad incierta; hace falta corroboración independiente.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": false,
+        "status_ok": true,
+        "cost_ok": false,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Presupuesto insuficiente para evaluar la evidencia; no se altera el estatus previo.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Presupuesto insuficiente para evaluar la evidencia; no se altera el estatus previo.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+          "spent": 1.0,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Prueba explícita, premisas completas y fuente vigente con calidad suficiente.",
+              "spent": 1.0,
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-02_2",
+    "passed_cases": 8,
+    "total_cases": 9,
+    "all_pass": false,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "proof, premises, source quality, revision, and budget checks pass",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "proof, premises, source quality, revision, and budget checks pass",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "finite observations or paths do not prove a universal claim",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "provisional",
+              "reason": "finite observations or paths do not prove a universal claim",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "a required premise or link is absent",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "provisional",
+              "reason": "a required premise or link is absent",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "evidence revision does not match the current source revision",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "evidence revision does not match the current source revision",
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "source quality is too uncertain for acceptance",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "source quality is too uncertain for acceptance",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": false,
+        "status_ok": true,
+        "cost_ok": false,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "insufficient budget to inspect the required route",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "needs_review",
+              "reason": "insufficient budget to inspect the required route",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "proof, premises, source quality, revision, and budget checks pass",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "proof, premises, source quality, revision, and budget checks pass",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "proof, premises, source quality, revision, and budget checks pass",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "proof, premises, source quality, revision, and budget checks pass",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "proof, premises, source quality, revision, and budget checks pass",
+          "spent": 4,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "prior_status": "provisional",
+              "status": "supported",
+              "reason": "proof, premises, source quality, revision, and budget checks pass",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "spent": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-02_3",
+    "passed_cases": 9,
+    "total_cases": 9,
+    "all_pass": true,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Current proof, complete premises, and adequate source quality are present.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Current proof, complete premises, and adequate source quality are present."
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "unsupported",
+          "reason": "Finite observations or routes do not establish a universal claim.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "unsupported",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Finite observations or routes do not establish a universal claim."
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "At least one required premise is missing.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "At least one required premise is missing."
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source and evidence revisions are not aligned.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Source and evidence revisions are not aligned."
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source quality is too uncertain for a firm status.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Source quality is too uncertain for a firm status."
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Insufficient budget to evaluate this case.",
+          "spent": 0.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Insufficient budget to evaluate this case."
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Current proof, complete premises, and adequate source quality are present.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ],
+              "reason": "Current proof, complete premises, and adequate source quality are present."
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Current proof, complete premises, and adequate source quality are present.",
+          "spent": 1.0,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ],
+              "reason": "Current proof, complete premises, and adequate source quality are present."
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Current proof, complete premises, and adequate source quality are present.",
+          "spent": 1.0,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ],
+              "reason": "Current proof, complete premises, and adequate source quality are present."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "session": "MI-02_4",
+    "passed_cases": 8,
+    "total_cases": 9,
+    "all_pass": false,
+    "checks": [
+      {
+        "case": "positive_valid_current",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "finite_not_universal_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "provisional",
+          "reason": "Finite observations do not prove a universal claim.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "provisional",
+              "reason": "Finite observations do not prove a universal claim.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "missing_premise",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "At least one required premise is missing.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "At least one required premise is missing.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "stale_evidence",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source and evidence revisions are not aligned.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Source and evidence revisions are not aligned.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 3,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "uncertain_without_proof",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "Source quality is below the 0.70 review threshold.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "Source quality is below the 0.70 review threshold.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "zero_budget_unverified",
+        "passed": false,
+        "status_ok": true,
+        "cost_ok": false,
+        "history_ok": true,
+        "output": {
+          "status": "needs_review",
+          "reason": "The available budget does not cover the route inspection.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "needs_review",
+              "reason": "The available budget does not cover the route inspection.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_a",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "c",
+                "a",
+                "b"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "route_order_b",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+          "spent": 4,
+          "history": [
+            "v1",
+            "v2",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "b",
+                "c",
+                "a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "retain_audit_history",
+        "passed": true,
+        "status_ok": true,
+        "cost_ok": true,
+        "history_ok": true,
+        "output": {
+          "status": "supported",
+          "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+          "spent": 4,
+          "history": [
+            "accepted-v1",
+            "retracted-v2",
+            "provisional-v3",
+            {
+              "claim_id": "claim-A",
+              "status": "supported",
+              "reason": "Proof, premises, source quality, revisions, route, and budget pass.",
+              "spent": 4,
+              "prior_status": "provisional",
+              "source_revision": 2,
+              "evidence_revision": 2,
+              "route_order": [
+                "a",
+                "b",
+                "c"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+# Dependency versions verified with CPython 3.12 on Windows; see docs/build_verification.json.
+numpy==2.5.4
+networkx==3.7

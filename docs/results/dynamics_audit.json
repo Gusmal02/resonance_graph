@@ -1,0 +1,764 @@
+{
+  "scope": "Same actual query, source graph, budget and saved treatment state; remove learned phase/adaptation only. Not a simulation of alternate entire agent histories.",
+  "queries_reproduced": 27,
+  "q_query_result_changes": 0,
+  "z_query_result_changes": 2,
+  "rows": [
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 1,
+      "control_mode": "q_frozen",
+      "query": "procedencia fecha revisión evidencia fuente incertidumbre memoria investigación",
+      "actual_ids": [
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:ffb0bb09e8efb37ac162e4ae6e4af609",
+        "u:f16352c2d8f16ed357d159244fd1d89a",
+        "u:b916ff916bd67e1e6e575cf30b75626c",
+        "u:109477db46be51bdba2dac5ad3cce3af",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0"
+      ],
+      "control_ids": [
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:ffb0bb09e8efb37ac162e4ae6e4af609",
+        "u:f16352c2d8f16ed357d159244fd1d89a",
+        "u:b916ff916bd67e1e6e575cf30b75626c",
+        "u:109477db46be51bdba2dac5ad3cce3af",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 2,
+      "control_mode": "q_frozen",
+      "query": "fecha revisión versiones historial cambios evidencia fuente confiable",
+      "actual_ids": [
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:ecf9581911e0701f5a1354ff5c828b07",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:70af3b5e366b77c555b163bfcaa848ae"
+      ],
+      "control_ids": [
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:ecf9581911e0701f5a1354ff5c828b07",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:70af3b5e366b77c555b163bfcaa848ae"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 3,
+      "control_mode": "q_frozen",
+      "query": "observaciones experimentales contradicción revisión incertidumbre observación finita prueba",
+      "actual_ids": [
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8"
+      ],
+      "control_ids": [
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 5,
+      "control_mode": "q_frozen",
+      "query": "cambios de contexto hipótesis actualizada observaciones nuevas evidencia revisión histórica",
+      "actual_ids": [
+        "u:ec5119733f85689c6eed29ea45965a98",
+        "u:7854ab1ff81cf3fba3e3c8678816d948",
+        "u:ecb5f211b24bddb4972c15fd2e396ffa",
+        "u:f9df3a9c0c4ad3e64d895fb8c9c88e60",
+        "u:6bdeaf9a3820973783ec26b25ffc1f23",
+        "u:52f3aa99c6d438690b0e245304eea4a5"
+      ],
+      "control_ids": [
+        "u:ec5119733f85689c6eed29ea45965a98",
+        "u:7854ab1ff81cf3fba3e3c8678816d948",
+        "u:ecb5f211b24bddb4972c15fd2e396ffa",
+        "u:f9df3a9c0c4ad3e64d895fb8c9c88e60",
+        "u:6bdeaf9a3820973783ec26b25ffc1f23",
+        "u:52f3aa99c6d438690b0e245304eea4a5"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 6,
+      "control_mode": "q_frozen",
+      "query": "costo memoria revisar documentos evidencias por prioridad retener recuperar",
+      "actual_ids": [
+        "u:b916ff916bd67e1e6e575cf30b75626c",
+        "u:049a0a187968e488c3a358de852b5d76",
+        "u:1a3df29bbc1249b7dfc9983e282d2482",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:c2dfbd16e8d1966ccf77edf9e5f4b533",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0"
+      ],
+      "control_ids": [
+        "u:b916ff916bd67e1e6e575cf30b75626c",
+        "u:049a0a187968e488c3a358de852b5d76",
+        "u:1a3df29bbc1249b7dfc9983e282d2482",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:c2dfbd16e8d1966ccf77edf9e5f4b533",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 8,
+      "control_mode": "q_frozen",
+      "query": "demostración lema proposición prueba contraejemplo observaciones conclusión",
+      "actual_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:7cdf53096507f394660dcca53338a61a",
+        "u:becdf879897718da0f1654891cc0d2dc",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "control_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:7cdf53096507f394660dcca53338a61a",
+        "u:becdf879897718da0f1654891cc0d2dc",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_2",
+      "mode": "q_active",
+      "event": 9,
+      "control_mode": "q_frozen",
+      "query": "cambio evidencia versión contradicción premisa registro incertidumbre",
+      "actual_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:becdf879897718da0f1654891cc0d2dc",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "control_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:becdf879897718da0f1654891cc0d2dc",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 1,
+      "control_mode": "static",
+      "query": "procedencia fecha revisión evidencia memoria incertidumbre",
+      "actual_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fde00086ab14cd6b118a7d97d2badf5d",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:ef821843f1cf5c97c4d06fde8e6b184f",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:842b853e57d0ce0626e66cc8836b6b06"
+      ],
+      "control_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fde00086ab14cd6b118a7d97d2badf5d",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:ef821843f1cf5c97c4d06fde8e6b184f",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:842b853e57d0ce0626e66cc8836b6b06"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 2,
+      "control_mode": "static",
+      "query": "demostración prueba finitud subdiagramas predicciones",
+      "actual_ids": [
+        "u:b7e334d35a2461513bee1548de6e4923",
+        "u:76283dec3b21611070cbb7578b16247a",
+        "u:bf488c59d38d4a238c92f55e34ccc013",
+        "u:51a779d29c69d368ee8868afef49b023",
+        "u:c2e6d9b2b2c731c85dc7a5d72b4eea33",
+        "u:269a1c4b7cc3a3a154971ba001f18767"
+      ],
+      "control_ids": [
+        "u:b7e334d35a2461513bee1548de6e4923",
+        "u:76283dec3b21611070cbb7578b16247a",
+        "u:bf488c59d38d4a238c92f55e34ccc013",
+        "u:51a779d29c69d368ee8868afef49b023",
+        "u:c2e6d9b2b2c731c85dc7a5d72b4eea33",
+        "u:269a1c4b7cc3a3a154971ba001f18767"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 4,
+      "control_mode": "static",
+      "query": "historial revisión fecha fuente evolución correcciones",
+      "actual_ids": [
+        "u:ecb5f211b24bddb4972c15fd2e396ffa",
+        "u:1ec47db8a9910b69d07fcc1af4f3ef36",
+        "u:5105d8f9dd66383999a1dce0f93d2be3",
+        "u:7854ab1ff81cf3fba3e3c8678816d948",
+        "u:500d9148e610600e7ca880d844e1387c",
+        "u:3433303727fc488103c3c813f15af73a"
+      ],
+      "control_ids": [
+        "u:ecb5f211b24bddb4972c15fd2e396ffa",
+        "u:1ec47db8a9910b69d07fcc1af4f3ef36",
+        "u:5105d8f9dd66383999a1dce0f93d2be3",
+        "u:7854ab1ff81cf3fba3e3c8678816d948",
+        "u:500d9148e610600e7ca880d844e1387c",
+        "u:3433303727fc488103c3c813f15af73a"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 5,
+      "control_mode": "static",
+      "query": "dato observado límites inferencia evidencia incompleta incertidumbre",
+      "actual_ids": [
+        "u:c0b067b3b74b1f9815c5bd875a9fc301",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:9daf1f0cc6b941180f75814d43186330"
+      ],
+      "control_ids": [
+        "u:9daf1f0cc6b941180f75814d43186330",
+        "u:317f0bd2931df1b3247adc52e06cd199",
+        "u:76283dec3b21611070cbb7578b16247a",
+        "u:fc2345b3ebc62b36740ff0c239aaccb1",
+        "u:0bac84798cff1665d146574956335221",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8"
+      ],
+      "returned_set_changed": true,
+      "returned_order_changed": true,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 8,
+      "control_mode": "static",
+      "query": "serie temporal observaciones distribución cambia tiempo anomalía",
+      "actual_ids": [
+        "u:91bab72accc91b0370567e734b07e257",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:ed0dff747b423604ca808ebc354ccede",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:eaa1e217e27d50a6097c74512eecdd83",
+        "u:fde00086ab14cd6b118a7d97d2badf5d"
+      ],
+      "control_ids": [
+        "u:91bab72accc91b0370567e734b07e257",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:ed0dff747b423604ca808ebc354ccede",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:eaa1e217e27d50a6097c74512eecdd83",
+        "u:fde00086ab14cd6b118a7d97d2badf5d"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-01_4",
+      "mode": "anchored",
+      "event": 9,
+      "control_mode": "static",
+      "query": "contraejemplo afirmación general observación finita probar hipótesis evidencia",
+      "actual_ids": [
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "control_ids": [
+        "u:2e50c6d00eda2430eb01d466af3bafe2",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "returned_set_changed": true,
+      "returned_order_changed": true,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 1,
+      "control_mode": "q_frozen",
+      "query": "grafo evidencia procedencia incertidumbre fuentes ruta trazabilidad revisión",
+      "actual_ids": [
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:ed72fc7a30c870ab17779e3de1c9fefa",
+        "u:15c5ac73a7249e8fe44905999d23ab91",
+        "u:051055eba81628c542e2b87a73292c71"
+      ],
+      "control_ids": [
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:ed72fc7a30c870ab17779e3de1c9fefa",
+        "u:15c5ac73a7249e8fe44905999d23ab91",
+        "u:051055eba81628c542e2b87a73292c71"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 2,
+      "control_mode": "q_frozen",
+      "query": "hipótesis de Riemann demostración evidencia computacional ceros límite prueba",
+      "actual_ids": [
+        "u:d9626687622d9e0b0fddf7c2e7f44b4a",
+        "u:ef821843f1cf5c97c4d06fde8e6b184f",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fc2345b3ebc62b36740ff0c239aaccb1",
+        "u:1d3efce015a20e5d02eb3b60da349307"
+      ],
+      "control_ids": [
+        "u:d9626687622d9e0b0fddf7c2e7f44b4a",
+        "u:ef821843f1cf5c97c4d06fde8e6b184f",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fc2345b3ebc62b36740ff0c239aaccb1",
+        "u:1d3efce015a20e5d02eb3b60da349307"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 4,
+      "control_mode": "q_frozen",
+      "query": "documentación científica versiones revisión incertidumbre calidad evidencia cita reproducible datos",
+      "actual_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "control_ids": [
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 6,
+      "control_mode": "q_frozen",
+      "query": "ceros zeta estadística matrices aleatorias evidencia conjetura límite ordenador no demuestra",
+      "actual_ids": [
+        "u:d85f99366f623773f844fc28fccd89ef",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:47b9a448c9ff12d795a4d7fb37fd636a",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "control_ids": [
+        "u:d85f99366f623773f844fc28fccd89ef",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:47b9a448c9ff12d795a4d7fb37fd636a",
+        "u:2e50c6d00eda2430eb01d466af3bafe2"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 7,
+      "control_mode": "q_frozen",
+      "query": "Montgomery conjetura correlación pares ceros zeta distribución intervalos matrices aleatorias",
+      "actual_ids": [
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:294872129ccb8faa0fda51b30e4fdff3",
+        "u:c47d1d4600db0bf27a12e155a704953b",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:d85f99366f623773f844fc28fccd89ef"
+      ],
+      "control_ids": [
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:294872129ccb8faa0fda51b30e4fdff3",
+        "u:c47d1d4600db0bf27a12e155a704953b",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:d85f99366f623773f844fc28fccd89ef"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 9,
+      "control_mode": "q_frozen",
+      "query": "hipótesis Riemann patrones gráficos demostración afirmación crítica fuente manuscrito",
+      "actual_ids": [
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:2e50c6d00eda2430eb01d466af3bafe2",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fcd465698cb39d358b98ad7d673a16af",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "control_ids": [
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:2e50c6d00eda2430eb01d466af3bafe2",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:fcd465698cb39d358b98ad7d673a16af",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_2",
+      "mode": "q_active",
+      "event": 10,
+      "control_mode": "q_frozen",
+      "query": "teorema condiciones hipótesis prueba existencia unicidad solución falta condición contraejemplo",
+      "actual_ids": [
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:c47d1d4600db0bf27a12e155a704953b",
+        "u:becdf879897718da0f1654891cc0d2dc"
+      ],
+      "control_ids": [
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:c47d1d4600db0bf27a12e155a704953b",
+        "u:becdf879897718da0f1654891cc0d2dc"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 1,
+      "control_mode": "static",
+      "query": "cambio de ruta trazabilidad evidencia grafo incertidumbre fuentes",
+      "actual_ids": [
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:80223fa8a7d95616b07b5e4af75ca26e",
+        "u:75d9ed270b65d9084f024be61481e5cc",
+        "u:9470d4fd5386efdceabc3648e0b6a43c",
+        "u:b5443430202c02c8dd738292028e6362",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15"
+      ],
+      "control_ids": [
+        "u:d8bdd066cf838c1c0806ef81083afebb",
+        "u:80223fa8a7d95616b07b5e4af75ca26e",
+        "u:75d9ed270b65d9084f024be61481e5cc",
+        "u:9470d4fd5386efdceabc3648e0b6a43c",
+        "u:b5443430202c02c8dd738292028e6362",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 2,
+      "control_mode": "static",
+      "query": "procedencia versiones evidencia reproducibilidad revisión incertidumbre fuente",
+      "actual_ids": [
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:2e50c6d00eda2430eb01d466af3bafe2",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:842b853e57d0ce0626e66cc8836b6b06"
+      ],
+      "control_ids": [
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:2e50c6d00eda2430eb01d466af3bafe2",
+        "u:6f9cf8c942a818f70221e7df4a7c966e",
+        "u:c85b7c6dd7427890a3c6c51ec7e7b4b0",
+        "u:842b853e57d0ce0626e66cc8836b6b06"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 4,
+      "control_mode": "static",
+      "query": "conjetura hipótesis evidencia cálculo numérico prueba universal contraejemplo",
+      "actual_ids": [
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:fc2345b3ebc62b36740ff0c239aaccb1",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "control_ids": [
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:d67ab31c7396f3cfbd463e22240a06dd",
+        "u:fc2345b3ebc62b36740ff0c239aaccb1",
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:99626d3c383f6c3e5c85df745833f974"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 6,
+      "control_mode": "static",
+      "query": "actualizar fuente revisión de versión conservar trazabilidad cita anterior",
+      "actual_ids": [
+        "u:dd8f4414102bc2b518f04c0f9c563a56",
+        "u:f16352c2d8f16ed357d159244fd1d89a",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:e15c2740c048751e876f23286906f70c",
+        "u:6ef2fd7f25ee1154db7a91e07823d59f",
+        "u:650ae33a988018f674f510796da36924"
+      ],
+      "control_ids": [
+        "u:dd8f4414102bc2b518f04c0f9c563a56",
+        "u:f16352c2d8f16ed357d159244fd1d89a",
+        "u:f3b34832dfa3454ada174527f95509af",
+        "u:e15c2740c048751e876f23286906f70c",
+        "u:6ef2fd7f25ee1154db7a91e07823d59f",
+        "u:650ae33a988018f674f510796da36924"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 7,
+      "control_mode": "static",
+      "query": "cambio de representación actualizar fuente fecha revisión evidencia anterior",
+      "actual_ids": [
+        "u:ed72fc7a30c870ab17779e3de1c9fefa",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:650ae33a988018f674f510796da36924",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:a5e3edc92743f355a0cfe997e5b794ff",
+        "u:30d14c1ec1b8d3512621b9bddad4bd4d"
+      ],
+      "control_ids": [
+        "u:ed72fc7a30c870ab17779e3de1c9fefa",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:650ae33a988018f674f510796da36924",
+        "u:70af3b5e366b77c555b163bfcaa848ae",
+        "u:a5e3edc92743f355a0cfe997e5b794ff",
+        "u:30d14c1ec1b8d3512621b9bddad4bd4d"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 12,
+      "control_mode": "static",
+      "query": "patrones finitos conjetura no demuestran conclusión general prueba matemática evidencia",
+      "actual_ids": [
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:0bac84798cff1665d146574956335221",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:76283dec3b21611070cbb7578b16247a",
+        "u:47b9a448c9ff12d795a4d7fb37fd636a",
+        "u:becdf879897718da0f1654891cc0d2dc"
+      ],
+      "control_ids": [
+        "u:7616c7fd6e9f18a5354dc5b146b19be8",
+        "u:0bac84798cff1665d146574956335221",
+        "u:c39fc031f069c9881515f6712d0da081",
+        "u:76283dec3b21611070cbb7578b16247a",
+        "u:47b9a448c9ff12d795a4d7fb37fd636a",
+        "u:becdf879897718da0f1654891cc0d2dc"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    },
+    {
+      "session": "MI-02_4",
+      "mode": "anchored",
+      "event": 13,
+      "control_mode": "static",
+      "query": "Hipótesis de Riemann ceros computados evidencia indicios dudas prueba general",
+      "actual_ids": [
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:6f9cf8c942a818f70221e7df4a7c966e"
+      ],
+      "control_ids": [
+        "u:1d3efce015a20e5d02eb3b60da349307",
+        "u:36d9af3d35d1a15fad38d38942e7539b",
+        "u:842b853e57d0ce0626e66cc8836b6b06",
+        "u:7b8ef9ba46dda2c62e6fdd14cf25cb15",
+        "u:1582d719a1ce6acffab42fe5e21c5115",
+        "u:6f9cf8c942a818f70221e7df4a7c966e"
+      ],
+      "returned_set_changed": false,
+      "returned_order_changed": false,
+      "actual_scored": 60,
+      "control_scored": 60,
+      "reproduces_observed": true
+    }
+  ]
+}

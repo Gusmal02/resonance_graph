@@ -1,0 +1,45 @@
+{
+  "origin": "Independent implementation evaluated locally; original algorithm modules copied without logic edits. Imports in tests were renamed from src to resonance_graph. Hashes normalize CRLF to LF.",
+  "core_files": [
+    {
+      "package_file": "src/resonance_graph/adaptation.py",
+      "original_file": "desarrollo_grafo_v2/src/adaptation.py",
+      "normalized_sha256": "8ca7504098c7f33b30cec0d298feeb02aa3f4ec134408b355a6e93967be4ba9a"
+    },
+    {
+      "package_file": "src/resonance_graph/demonstrator.py",
+      "original_file": "desarrollo_grafo_v2/src/demonstrator.py",
+      "normalized_sha256": "f1af099ecf5472f05dc56168a2c1c8531ea7ca2071deff1db0d6b7a18a4c58cf"
+    },
+    {
+      "package_file": "src/resonance_graph/evidence.py",
+      "original_file": "desarrollo_grafo_v2/src/evidence.py",
+      "normalized_sha256": "583c6a6964eaf64fdeae57a10b36f1b03218ce03c171fd4f3e63a63f22ee131e"
+    },
+    {
+      "package_file": "src/resonance_graph/model.py",
+      "original_file": "desarrollo_grafo_v2/src/model.py",
+      "normalized_sha256": "b648c6a28e5f35cf9a7a9870945df51333e7db276a3932f8851440a7021e7ce8"
+    },
+    {
+      "package_file": "src/resonance_graph/navigation.py",
+      "original_file": "desarrollo_grafo_v2/src/navigation.py",
+      "normalized_sha256": "1e06c83c273cc6109eaba74638bc3b1fdcf62005a8ace5033689c19019b26e1f"
+    },
+    {
+      "package_file": "src/resonance_graph/operational.py",
+      "original_file": "desarrollo_grafo_v2/src/operational.py",
+      "normalized_sha256": "af225a4b738982a32d53b2ddbb8ffb0610f34334268e6fa9bac2fad11ab52beb"
+    },
+    {
+      "package_file": "src/resonance_graph/projection.py",
+      "original_file": "desarrollo_grafo_v2/src/projection.py",
+      "normalized_sha256": "d61c4a9f0e4760f9c719afaf4a15a5c9b354f6959bdca025bab4f76717e2dec8"
+    },
+    {
+      "package_file": "src/resonance_graph/semantic_graph.py",
+      "original_file": "desarrollo_grafo_v2/src/semantic_graph.py",
+      "normalized_sha256": "d240a147b683721264e9be22ed3c6ff077224f55aae7eac9036f7e44006d4f2f"
+    }
+  ]
+}
