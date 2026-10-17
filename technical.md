@@ -66,4 +66,4 @@ Ver [evaluación](docs/evaluation.md) para los resultados completos resumidos, c
 
 ## Licencia y madurez
 
-Versión alfa0.1.0: contrato de integración documentado, tests y ejemplo ejecutable. No se asignó una licencia abierta en nombre del titular sin su elección. Antes de redistribuir o usar fuera de los permisos concedidos, acordar la licencia correspondiente. No se publica en PyPI con este trabajo.
+Versión alfa0.1.0: contrato de integración documentado, tests y ejemplo ejecutable. El código original de la biblioteca se distribuye bajo [Apache 2.0](LICENSE). Las dependencias y los contenidos de terceros conservan sus licencias y derechos respectivos. No se publica en PyPI con este trabajo.

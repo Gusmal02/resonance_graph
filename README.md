@@ -69,4 +69,4 @@ print([hit.node_id for hit in result.hits])
 - [Resultados y trazabilidad de la evaluación](docs/evaluation.md).
 - [Historial de esta distribución](CHANGELOG.md).
 
-Primera versión de biblioteca: **0.1.0**. El código del núcleo se distribuye separado de los corpus personales y de los entornos de investigación. La selección de una licencia de uso y redistribución está pendiente del titular; que el repositorio sea accesible no sustituye esa autorización.
+Primera versión de biblioteca: **0.1.0**, bajo licencia [Apache 2.0](LICENSE). El código del núcleo se distribuye separado de los corpus personales y de los entornos de investigación. Las dependencias y los materiales de terceros conservan sus propias licencias y derechos.
